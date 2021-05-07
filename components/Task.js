@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 const Task = (props) => {
     return (
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     square: {
         width: 24,
         height: 24,
-        backgroundColor: '#55BCF6',
+        backgroundColor: '#4db6ac',
         opacity: 0.4,
         borderRadius: 5,
         marginRight: 15,
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     circular: {
         width: 12,
         height: 12,
-        borderColor: '#55BCF6',
+        borderColor: '#4db6ac',
         borderWidth: 2,
         borderRadius: 5,
     },
